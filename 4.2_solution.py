@@ -3,16 +3,15 @@
 word = "kajak"
 
 def palindrom(word):
-    if word[0] == word[-1]:
-        if word[1] == word[-2]:
-            if word[2] == word[-3]:
-                return "True"
-            else: 
-                return "False"
+    for i in range(len(word)):
+        p = 0
+        o = -1
+        if word[p] == word[o]:
+            p = p+1
+            o = o-1
+            return "True"            
         else: 
-            return "False"             
-    else: 
-        return "False"    
+            return "False"    
 
 print(palindrom(word))
 
@@ -31,3 +30,5 @@ def palindrom(word):
             return "False"    
 
 print(palindrom(word))
+
+#proszę o podpowiedź :(
