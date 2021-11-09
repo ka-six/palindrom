@@ -1,4 +1,4 @@
-word = "kajak"
+word = input("Podaj wyraz:")
 
 def palindrom(word):
     j=-1
@@ -10,4 +10,4 @@ def palindrom(word):
             return "False"  
     return "True"
 
-print(palindrom(word))
+print(f"Czy to słowo jest palindromem: {palindrom(word)}")
