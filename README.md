@@ -1,4 +1,4 @@
-# zad_4.2
+# palindrom
 
 Zadaniem było napisanie funkcji, która sprawdza, czy dany wyraz jest palindromem.
 
